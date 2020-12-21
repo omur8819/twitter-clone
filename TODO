@@ -1,0 +1,47 @@
+TODO: Next.js React Framework:
+    -  Neden Next.js: 
+        - Image Optimization,
+        - Internationalized Routing
+        - Next.js Analytics
+        - Zero Config.
+        - Hybrid: SSG(Static-side Generation) and SSR(Server-side Rendering) 
+            getStaticProps (Static Generation): Fetch data at build time.
+            getStaticPaths (Static Generation): Specify dynamic routes to pre-render based on data.
+            getServerSideProps (Server-side Rendering): Fetch data on each request.
+        - TypeScript Support
+        - Fast Refresh
+        - Routing 
+        - API routes provide a straightforward solution to build your API with Next.js.
+        - Built-In CSS Support
+        -Code-splitting and Bundling
+          Optimized bundle splitting algorithm created by the Google Chrome team.
+
+TODO:2 Next.js kurulumu manuel veya create-next-app ve klasör yapısı(pages,styles,public,)
+TODO:3 Routing yapısının kısaca anlatılması Link,useRouter,dynamic Routing
+TODO:4 Css module den bahsetilicek.
+TODO:5 Svgr module tanıtılması:(Icon Comp. için) Örnek Icon Kullanımı : svgr cli kurulması ve iconların comp. yapılması 
+TODO:6 Twitter Layoutun Hazırlaması:
+    -   useWindowsSize hoooksu ve 
+    - Layout Comp olusturulması ve taslagın gösterilmesi
+        - Layout.js
+        - LayoutSidebar.js
+        - LayoutMain.js
+        - LayoutExtra.js
+    - Styles dosyalarının olusturulması. Global and variable
+
+TODO:7 Custom Comp.lerin hazırlanması 
+    - Button Comp.
+        - normal Button  button veya a tag lerini exdent edicek (classname paketi ve next Link)
+            - LinkButton 
+            - BaseButton
+        - IconButton Button u extend edicek içine icon gelecek
+        - ThemeButton Button u exdent edicek ve extra css gelecek.
+        - MenuButton IconButton ları exdendt edicek duruma göre text olucak veya olmayacak.(size göre)
+TODO:8 Nav. Comp. olusturulması
+
+TODO:9 ProfilBox Comp. olusturulması 
+        - Avatar Comp.
+TODO:10 Sidebarın tanımlanması 
+TODO:11 Tema desteği context api
+TODO:12 Vercel deploy
+

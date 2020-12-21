@@ -1,15 +1,19 @@
 {
-  "name": "twitter-clone",
+  "name": "workshop_twitter_clone",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "icon": "svgr icons -d components/icons --icon --replace-attr-values \"#fff=currentColor\""
   },
   "dependencies": {
     "next": "10.0.3",
     "react": "17.0.1",
     "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^5.5.0"
   }
 }
