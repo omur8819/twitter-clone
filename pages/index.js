@@ -1,7 +1,11 @@
-import Head from "next/head";
+import { TimelineProp } from "../components/icons";
 
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  return <div className={styles.container}>Home</div>;
+  return (
+    <div className={styles.container}>
+      Home <TimelineProp />
+    </div>
+  )
 }

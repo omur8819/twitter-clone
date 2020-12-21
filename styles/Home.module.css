@@ -7,6 +7,11 @@
   align-items: center;
 }
 
+.container svg{
+  font-size: 30px;
+  color: tomato;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
